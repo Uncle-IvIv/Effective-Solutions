@@ -34,15 +34,26 @@ img {
 .container {
 }
 /* header*/
-.header-box {
+.header-box {display: flex;
 }
 .header-nav {
+}
+.nav-header {display: flex;
 }
 .nav-header-logo {
 }
 .logo-studio {
     color: #b48989;
 }
-
+.nav-ul {
+  display: flex;
+}
+.nav-ul-li {
+  padding-right: 100px;
+}
+.nav-twoul {
+  display: flex;
+  list-style: none;
+}
 /*main/
 /*footer/
