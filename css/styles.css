@@ -31,13 +31,18 @@ img {
 * {
   box-sizing: border-box;
 }
-
+.container {
+}
 /* header*/
 .header-box {
 }
 .header-nav {
 }
-.container {
+.nav-header-logo {
 }
+.logo-studio {
+    color: #b48989;
+}
+
 /*main/
 /*footer/
