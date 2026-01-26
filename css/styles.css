@@ -1,9 +1,9 @@
 body {
-  font-family: "Roboto", "Raleway" , sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
-  text-decoration: none;
-}
+  }
+
 a {
   text-decoration: none;
 }
@@ -25,35 +25,66 @@ ol {
   padding: 0;
   margin: 0;
 } /*для видалення маркерів елементів списку, скидаємо марджин падінг та  до «0»*/
+
 img {
   display: block;
 }
+
 * {
   box-sizing: border-box;
 }
+
 .container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
-/* header*/
-.header-box {display: flex;
+
+.temp {
+  background: #b32937;
+  border: #0f0f16;
 }
-.header-nav {
+
+              /* header*/
+.header-box {
+  
+}
+.header-div{
+  display: flex;
 }
 .nav-header {display: flex;
+  padding: 24px 0;
 }
-.nav-header-logo {
+.logo {
+font-family:  "Raleway" , sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
 }
 .logo-studio {
-    color: #b48989;
+    color: #2e2f42;
+    margin-right: 76px;
 }
 .nav-ul {
   display: flex;
+  margin-right: 332px;
 }
 .nav-ul-li {
-  padding-right: 100px;
+ padding-right: 40px;
 }
-.nav-twoul {
+.nav-ul-link {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.nav-adress {
   display: flex;
-  list-style: none;
+  padding: 24px 0;
 }
 /*main/
 /*footer/
