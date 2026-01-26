@@ -2,12 +2,13 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
+  text-decoration: none;
   }
 
 a {
   text-decoration: none;
 }
-
+     /* reset */
 h1,
 h2,
 h3,
@@ -28,48 +29,64 @@ ol {
 
 img {
   display: block;
-}
+  max-width: 100%;
+  }
 
 * {
   box-sizing: border-box;
 }
-
+      /* common */
 .container {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
 
-.temp {
-  background: #b32937;
-  border: #0f0f16;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
 }
 
               /* header*/
 .header-box {
-  
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-div{
   display: flex;
+  align-items: center;
 }
-.nav-header {display: flex;
-  padding: 24px 0;
+.nav-header {
+  display: flex;
+  align-items: center;
 }
 .logo {
-font-family:  "Raleway" , sans-serif;
-font-weight: 700;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.nav-logo {
+  padding: 24px 0;
+  margin-right: 76px;
 }
 .logo-studio {
     color: #2e2f42;
-    margin-right: 76px;
+   
 }
 .nav-ul {
   display: flex;
+  align-items: center;
   margin-right: 332px;
 }
 .nav-ul-li {
@@ -84,6 +101,7 @@ color: #2e2f42;
 }
 .nav-adress {
   display: flex;
+  align-items: center;
   padding: 24px 0;
 }
 /*main/
