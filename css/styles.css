@@ -81,7 +81,7 @@ img {
   margin-right: 76px;
 }
 .logo-studio {
-    color: #2e2f42;
+  color: #2e2f42;
    
 }
 .nav-ul {
@@ -93,18 +93,33 @@ img {
 
 }
 .nav-ul-link {
-display: block;
-padding: 24px 0;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #2e2f42;
+  display: block;
+  padding: 24px 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
+
 .nav-adress {
+  font-style: normal;
+  margin-left: auto;
+}
+.adress-ul {
   display: flex;
   align-items: center;
+  gap: 40px;
+}
+
+.adress-link {
+  display: block;
   padding: 24px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 /*main/
 /*footer/
