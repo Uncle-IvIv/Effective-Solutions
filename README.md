@@ -1,2 +1,1 @@
-# Effective-Solutions-for
 
