@@ -209,6 +209,11 @@ img {
   border-radius: 4px;
   background-color: #f4f4fd;
   margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.directions-icon-svg {
 }
 .directions-h {
   margin-bottom: 8px;
@@ -223,7 +228,32 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  align-items: flex-end;
 }
+
+/*Our Team*/
+
+.team {
+}
+.team-container {
+}
+.container {
+}
+.team-our {
+}
+.team-ul {
+}
+.team-ul-li {
+}
+.team-ul-foto {
+}
+.team-surname {
+}
+.team-title {
+}
+.team-social {
+}
+
 /*footer*/
 .footer-page {
   background-color: #2e2f42;
