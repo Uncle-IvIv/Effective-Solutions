@@ -58,7 +58,9 @@
       <section class="hero">
         <div class="hero-container container">
           <h1 class="hero-tekst">Effective Solutions for Your Business</h1>
-          <button class="hero-button" type="button">Order Service</button>
+          <button class="hero-button" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <section class="directions">
@@ -479,5 +481,62 @@
         </div>
       </div>
     </footer>
+
+    <!-- Modal windows -->
+
+    <div class="backdrop" data-modal>
+      <div class="modal">
+        <button class="modal-close-btn" type="button" data-modal-close>
+          <svg class="close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-p">Leave your contacts and we will call you back</p>
+        <form class="form-mod" action="">
+          <div class="div-form">
+            <label class="label-mod" for="user-name">Name</label>
+            <input
+              class="input-form"
+              type="text"
+              id="user-name"
+              name="user-name" />
+          </div>
+          <div>
+            <label class="label-mod" for="user-phone">Phone</label>
+            <input
+              class="input-form"
+              type="text"
+              id="user-phone"
+              name="user-phone" />
+          </div>
+          <div>
+            <label class="label-mod" for="user-email">Email</label>
+            <input
+              class="input-form"
+              type="text"
+              id="user-email"
+              name="user-email" />
+          </div>
+          <div>
+            <label class="label-mod" for="user-comment">Comment</label>
+            <input
+              class="input-form input-comment"
+              type="text"
+              id="user-comment"
+              name="user-comment" />
+          </div>
+          <div class="div-terms">
+            <input type="checkbox" />
+            <label class="label-terms" for="user-terms"
+              >I accept the terms and conditions of the Privacy Policy</label
+            >
+          </div>
+          <div class="form-send-btn">
+            <button class="button-send">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
