@@ -626,6 +626,8 @@ img {
   height: 56px;
 }
 .button-send:hover .button-send:focus {
+  background: #404bbf;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 .form-send-btn {
   display: flex;
