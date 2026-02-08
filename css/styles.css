@@ -35,6 +35,10 @@ img {
 * {
   box-sizing: border-box;
 }
+
+button {
+  border: 0;
+}
 /* common */
 
 .container {
